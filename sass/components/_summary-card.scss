@@ -124,6 +124,10 @@
     // MEDIA QUERY FOR MOBILE
     @include media(mobile){
         width: 95%;
+        background: url(/images/pattern-background-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
